@@ -29,7 +29,7 @@ declare -rg MR_USER_PREFIX="${MR_USER_PREFIX:-runner-}"
 # runners' local users base directory, overrides the `HOME` setting in `/etc/default/useradd`
 declare -rg MR_USER_BASE
 # URL of this application
-declare -rg MR_URL='https://github.com/vbem/multi-runners'
+declare -rg MR_URL='https://github.com/kugelbit-com/multi-runners'
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # stdlib
