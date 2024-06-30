@@ -1,11 +1,13 @@
 # multi-runners
 
 [![awesome-runners](https://img.shields.io/badge/listed%20on-awesome--runners-blue.svg)](https://github.com/jonico/awesome-runners)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vbem/multi-runners?label=Release&logo=github)](https://github.com/vbem/multi-runners/releases)
-[![Linter](https://github.com/vbem/multi-runners/actions/workflows/linter.yml/badge.svg)](https://github.com/vbem/multi-runners/actions/workflows/linter.yml)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/vbem/multi-runners?logo=github)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kugelbit-com/multi-runners?label=Release&logo=github)](https://github.com/kugelbit-com/multi-runners/releases)
+[![Linter](https://github.com/kugelbit-com/multi-runners/actions/workflows/linter.yml/badge.svg)](https://github.com/kugelbit-com/multi-runners/actions/workflows/linter.yml)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/kugelbit-com/multi-runners?logo=github)
 
 🌈🌈🌈 **Multi self-hosted GitHub action runners on single host!** 🌈🌈🌈
+
+Forked from: https://github.com/vbem/multi-runners
 
 ## Introduction
 
@@ -20,7 +22,7 @@ This application is designed for controlling multi [self-hosted GitHub Action ru
 ## Usage
 
 ```plain
-mr.bash - https://github.com/vbem/multi-runners
+mr.bash - https://github.com/kugelbit-com/multi-runners
 
 Environment variables:
   MR_GIHUB_BASEURL=https://github.com
@@ -58,7 +60,7 @@ Options:
 This application requires to be run under a Linux user with **non-password sudo permission** (`%runners ALL=(ALL) NOPASSWD:ALL`). It's also fine to run this application by `root`:
 
 ```bash
-git clone https://github.com/vbem/multi-runners.git
+git clone https://github.com/kugelbit-com/multi-runners.git
 cd multi-runners
 ./mr.bash --help
 ```
@@ -227,7 +229,7 @@ When *Local Proxy* is ready, we start self-hosted runners' setup on *VM-Runners*
 As *VM-Runners* Can NOT access *GitHub* directly or stably, use *Local Proxy* to clone this repository:
 
 ```bash
-all_proxy=socks5h://localhost:7890 git clone https://github.com/vbem/multi-runners
+all_proxy=socks5h://localhost:7890 git clone https://github.com/kugelbit-com/multi-runners
 cd multi-runners
 ```
 

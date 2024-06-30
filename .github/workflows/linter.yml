@@ -16,4 +16,4 @@ jobs:
       contents: read
       packages: read
       statuses: write
-    uses: vbem/reusable/.github/workflows/superlinter.yml@v1
+    uses: kugelbit-com/reusable-workflow/.github/workflows/superlinter.yml@main

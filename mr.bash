@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# https://github.com/vbem/multi-runners
+# https://github.com/kugelbit-com/multi-runners
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # common configurations
